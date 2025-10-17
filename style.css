@@ -24,3 +24,17 @@ body{
     text-align: center;
     color: #fff;
 }
+#movie-list ,#add-movie{
+    margin: 30px;
+}
+#movie-list ul{
+    list-style: none;
+    
+}
+#movie-list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
