@@ -38,3 +38,41 @@ body{
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
+#movie-list ul li:hover{
+    border-left: 1px solid #9361bf;
+    background: #f4f4f4;
+}
+.delete{
+    background-color: #df5b3f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+.delete:hover{
+    background: maroon;
+}
+#add-movie{
+    width: 400px;
+    margin: 0 auto;
+}
+#add-movie input{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 4px;
+}
+#add-movie button{
+    background:green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#add-movie button:hover{
+    background-color: darkgreen;
+}
